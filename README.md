@@ -28,13 +28,11 @@ mkdir pages
 Then, modify `"scripts"` in `package.json` :
 
 ~~~bash
-{
-	"scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "next build",
-    "start": "next start",
-    "start:dev": "next"
-  }
+"scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"build": "next build",
+	"start": "next start",
+	"start:dev": "next"
 }
 ~~~
 
